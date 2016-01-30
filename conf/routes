@@ -4,6 +4,7 @@
 
 # Home page
 GET     /music                      controllers.Application.musicHomePage
+GET     /conges                     controllers.Application.congesHomePage
 GET     /                           controllers.Application.index
 
 # Map static resources from the /public folder to the /assets URL path
