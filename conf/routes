@@ -4,6 +4,7 @@
 
 # Home page
 GET     /music                      controllers.Application.musicHomePage
+GET     /video                      controllers.Application.videoHomePage
 GET     /conges                     controllers.Application.congesHomePage
 GET     /                           controllers.Application.index
 
